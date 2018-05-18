@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="7dp">
+
+    <ImageView
+        android:adjustViewBounds="true"
+        android:layout_gravity="center"
+        android:id="@+id/imageviewgiohang"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textviewtenhang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Điện thoại iPhone 7GB"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textviewgiahang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:text="Giá: 00.000.00Đ"
+            android:textColor="#f20"
+            android:textSize="17sp" />
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:focusable="false"
+                android:id="@+id/buttongiam"
+                android:textSize="30dp"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_marginRight="15dp"
+                android:text="-" />
+
+            <TextView
+                android:id="@+id/textviewsoluonghang"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:gravity="center"
+                android:text="1"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:focusable="false"
+                android:id="@+id/buttontang"
+                android:textSize="30dp"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="15dp"
+                android:text="+" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
